@@ -1,0 +1,110 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ready Tensor Internship</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Kenny Nguyen's Porfolio</a></h1>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+				<nav id="menu">
+					<div class="inner">
+						<h2>Menu</h2>
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="AboutMe.html">About Me</a></li>
+							<li><a href="Resume.html">Resume</a></li>
+							<li><a href="FeaturedProjects.html">Featured Projects</a></li>
+							<li><a href="Contact.html">Contact</a></li>
+						</ul>
+						<a href="#" class="close">Close</a>
+					</div>
+				</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>Summer 2022 Internship at Ready Tensor</h2>
+								<p>Creating a library of deployable Machine Learning Models for Ready Tensor Inc.</p>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+
+									<section>
+										<h3 class="major">Background</h3>
+										<p> As wearable health devices become more commonplace, the amount of health data we have access to grows at a rapid pace. These data can provide a look into the current health of the user. And with the tools and techniques we have as data scientists, we can also provide insight into the user's future health as well.
+
+											<br>
+											<br>
+
+											The issue remains in the accessability of a person's entire health data history. From electronic health records (EHRs) stored in Epic databases, to the wearable health data housed in each of their respective company's proprietry software, to the immeasureable life events that can affect a person's well-being, all of these integral parts of a person's health are scattered among vasty different mediums.
+											<br>
+											<br>	
+
+											This very problem fueled this very project: a medical dashboard that consolidates all of these different sources of health data into a single application in which patients and physicians can both easily access the patient's health information. 
+											</p>
+
+										<h3 class="major">Development</h3>
+
+										<p>
+
+											The team tasked with creating this dashboard consisted of myself and six other data science students working alongside our mentor, Dr. Benjamin Smarr, as well as a team of 4 bioengineering students. The data science side split ourselves up into two subteams: a backend team and a frontend team. The backend team was responsible for finding the APIs that would allow us to extract the data from the specific data source as well as creating a processing pipeline that would allow for the information to be displayed easily on the application. The frontend team (which was the team I was a part of) was responsible for the user interface of the application as well as creating the visualizations that displayed the useful health information of the patient. 
+											
+											<br>
+											<br>
+								
+											The first part of the project was to interview Project Apollo, the group of individuals that proposed the project in the first place. In the interviews, we learned that Project Apollo members were very adamant about overlaying personal life events on top of their personal health data over a period of time as they wanted to see how they would affect their health in the long run. The members of Project Apollo also used Oura Rings to keep track of their health metrics such as sleep score, heart rate, and calories burned. So the backend team’s task was to be able to pull out the Oura Ring data and process it in a manner that allows it to be displayed on the application. The front end was tasked with finding an appropriate software to display the backend team’s cleaned data and an application that could host the visualizations. 
+											
+											<br>
+											<br>
+
+											Using the proprietary Oura API and packages such as Pandas and Numpy, the backend team was able to extract, transform, and load the Oura data into comma separated value files (CSVs) and store them on a Google Drive. We combined this data with Apple Health data that the bioengineering team was able to extract using the Apple Health API. The frontend team decided to use Tableau as our visualization tool of choice because not only are the graphs very easy to view, but also allow for comments and annotations on the graphs which can be used to document significant life events as per Project Apollo’s request.
+											These visualizations would be hosted on a website built using Github pages due to its ability for multiple users to work on the website simultaneously as well as it being free (we are college students after all 🙂).
+											
+
+										</p>
+
+										<h3 class="major">Results</h3>
+
+										<p>After 20 weeks of hard work and late nights, our Longitudinal Integrative Graphical Medical Application was completed. It features five different visualizations that include a Pearson correlation chart that allows the user to see how similar two of the metrics are to one another. We have also linked resources for the user on health information such as diet and sleep to provide them with resources concerning general health. We presented our application at our Data Science Showcase in which many industry professionals and professors inquired about our projects and its impact. 
+										</p>
+
+										<h3 class="major">Future Expansions</h3>
+
+										<p>
+											As a whole, the project was a success and provided a great starting point for future iterations and improvements. One big improvement we would like to see made going forward would be the automating of the data loading and transformation process. For the sake of this project and creating a feasible application, we exported, cleaned, and visualized the data manually and stored them in Google Drive folders. Having these processes automated would save much time on our end and would allow for a more continuous upload of current health data. Another big addition we would like implemented would be uploading Epic EHRs into the application as it would provide a more robust overview of a patient’s health. 
+
+										</p>
+
+
+
+										
+									</section>
+
+							
+
+	</body>
+</html>
