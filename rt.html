@@ -71,15 +71,13 @@
 											classification. To be precise, a binary classification algorithm determines whether or not an observation belongs in either one of two classes
 											(i.e. if a cell phone is either an Apple or an Android based on some features of the phone). A text classification algorithm is simply the categorization of 
 											a corpus of text into a specific category (i.e. would this review be considered a good, bad, or neutral review). The purpose of this library
-											was to provide contributing users with a baseline benchmark by which to measure their own models against. Each algorithm I created had to fit within the specified Ready Tensor framework. This included
-											providing a data cleaning pipeline, hyperparameter tuning, and a model evaluation output in the Docker
-											container.
+											is to provide contributing users with a baseline benchmark by which to measure their own models against. 
 
 										
 											<br>
 											<br>
 
-											Understanding the guidelines I needed to follow, I then was tasked with researching the different
+											I then was tasked with researching the different
 											types of algorithms for each category I was assigned. Listed below are some of the algorithms and tools used to create the library of machine learning models
 
 											
@@ -87,7 +85,7 @@
 										<section>						
 											<div class="row">
 												<div class="col-6 col-12-medium">
-													<h4>Unordered</h4>
+													<h4>Algorithms</h4>
 													<ul>
 														<li>Random Forest Classifier</li>
 														<li>Logistic Regression Classifier</li>
@@ -99,7 +97,7 @@
 													</ul>
 												</div>
 												<div class="col-6 col-12-medium">
-													<h4>Ordered</h4>
+													<h4>Tools and Packages</h4>
 													<ul>
 														<li>TensorFlow</li>
 														<li>Pytorch</li>
@@ -112,15 +110,13 @@
 													</ul>
 													
 										</section>
-								
-											
-											<br>
-											<br>
 
-											Using the proprietary Oura API and packages such as Pandas and Numpy, the backend team was able to extract, transform, and load the Oura data into comma separated value files (CSVs) and store them on a Google Drive. We combined this data with Apple Health data that the bioengineering team was able to extract using the Apple Health API. The frontend team decided to use Tableau as our visualization tool of choice because not only are the graphs very easy to view, but also allow for comments and annotations on the graphs which can be used to document significant life events as per Project Apollo’s request.
-											These visualizations would be hosted on a website built using Github pages due to its ability for multiple users to work on the website simultaneously as well as it being free (we are college students after all 🙂).
+											Each algorithm I created had to fit within the specified Ready Tensor framework. This included
+											providing a data cleaning pipeline, hyperparameter tuning, and a model evaluation output in the Docker
+											container. So after creating the algorithm, I used a variety of datasets to ensure that the cleaning pipeline was working
+											as intended as well as evaluate how well the model would perform. 
+																										
 											
-
 										</p>
 
 										<h3 class="major">Results</h3>
